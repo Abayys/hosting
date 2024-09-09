@@ -1,0 +1,132 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: rgb(248, 243, 243);
+    margin: 0;
+    padding: 0;
+    height: aut;
+  }
+  header {
+    background-image: url(WhatsApp\ Image\ 2024-08-20\ at\ 08.47.04_756eee55.jpg);
+    color: #ffffff;
+    padding: 20px 0;
+    text-align: center;
+    width: 100%;
+    display: flex;
+    height: auto;
+  
+  }
+  
+  header img{
+    margin-right: 32%;
+  }
+  
+  
+  nav {
+    background-image: url(WhatsApp\ Image\ 2024-08-20\ at\ 08.47.04_756eee55.jpg);
+    overflow: hidden;
+  }
+  nav p {
+    opacity: 0;
+  }
+  .content {
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
+  footer {
+    background-color: #fbf5f5;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+    position: static;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+  }
+  
+  
+  .home-container{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    display: flex;
+  }
+  .profile-card{
+    position: relative;
+    width: 420px;
+    height: 420px;
+    background-color: #0c0c0c;
+    padding: 30px;
+    box-shadow: -5px 8px 45px rgba(51, 51, 51, 0.126);
+    transition: all .4s;
+    margin-bottom: 40px;
+    justify-content: center;
+    margin: 0 auto;
+
+  }
+  .profile-card:hover{
+    border-radius: 10px;
+    height: 370px;
+  }
+  .profile-card .img{
+    position: center;
+    width: 50%;
+    height: 100%;
+  }
+  .profile-card:hover img{
+    border-radius: 20px;
+    transform: translateY(-70px);
+  }
+  .img img{
+    object-fit: fill;
+    width: 100%;
+    border-radius: 50%;
+    transition: all .4s;
+    z-index: 99;
+  }
+  .caption{
+    text-align: center;
+    transform: translateY(-90px);
+    opacity: 0;
+    pointer-events: none;
+    transition: all .5s;
+  }
+  .profile-card:hover .caption{
+    opacity: 1;
+    pointer-events: all;
+    transform: translateY(-230px);
+  }
+  .caption h3{
+    font-size: 21px;
+    color: #0c52a1;
+    font-weight: 600;
+  }
+  .caption p{
+    font-size: 15px;
+    font-weight: 500;
+    color: #f9f5f5;
+  }
+  .caption {
+    font-size: 21px;
+    cursor: pointer;
+    transition: all .4s;
+   
+  }
+  .social-links a{
+    display: inline;
+    text-decoration: none;
+    color: rgb(251, 249, 249);
+    margin: 3%;
+  }
+  .caption .social-links a:hover{
+    color: #0c52a1;
+    
+  }
+
+  ::selection img {
+    display: block;
+    width: 100%;
+    height: auto;
+    width: 10px;
+  }
